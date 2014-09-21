@@ -1,6 +1,6 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include "../../driver/lcd_driver.h"
+#include "../5110_lcd_driver/lcd_driver.h"
 #define MAX_SNAKE_LEN 130
 #define SNAKE_SPEED 800
 
