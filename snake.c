@@ -1,3 +1,8 @@
+/*TODO
+  highscore!
+  sound?!
+*/
+
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include "../5110_lcd_driver/lcd_driver.h"

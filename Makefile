@@ -12,7 +12,7 @@ snake.elf: snake.o ../5110_lcd_driver/lcd_driver.o
 
 
 
-programm: snake.hex
+program: snake.hex
 	sudo avrdude -c avrispv2 -P usb -p m8 -U flash:w:snake.hex
 clean:
 	rm snake.o
